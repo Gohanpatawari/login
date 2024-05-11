@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navs">
+
+            <h2 class="gojo">GOJO</h2>
+            <ul class="items">
+                <li class="ite"><a href="#" class="links">Home</a></li>
+                <li class="ite"><a href="#" class="links">Product</a></li>
+                <li class="ite"><a href="#" class="links">Service</a></li>
+                <li class="ite"><a href="#" class="links">contact</a></li>
+            </ul>
+
+            <button class="button" id="form-open">login</button>
+        </nav>4
+    </header>
+    <!--Home  -->
+    <section class="Home">
+        <div class="form_container">
+            <i class='bx bx-x form_close'></i>
+            <!-- login form -->
+            <div class="form_login_form">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <input type="email" placeholder="Enter your email" required>
+                        <i class='bx bxl-gmail gmail'></i>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password" placeholder="Enter your password " required>
+                        <i class='bx bxs-lock-alt lock'></i>
+                    </div>
+                    <div class="optional">
+                        <spam class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remenber me</label>
+                        </spam>
+                        <a href="#" class="forget">Forget password?</a>
+                    </div>
+                    <button class="bbutton">Login Now</button>
+                    <div class="login_signup">
+                        Don't have an account <a href="#" id="signup"> signup</a>
+                    </div>
+                </form>
+            </div>
+            <!-- signup form -->
+            <div class="form_signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+                    <div class="inputbox">
+                        <input type="email" placeholder="Enter your email" required>
+                        <i class='bx bxl-gmail gmail'></i>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password" placeholder="Enter your password " required>
+                        <i class='bx bxs-lock-alt lock'></i>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password" placeholder="conform your password " required>
+                        <i class='bx bxs-lock-alt lock'></i>
+                    </div>
+
+                    <button class="bbutton">Signup Now</button>
+                    <div class="login_signup">
+                        already have an account <a href="#" id="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
